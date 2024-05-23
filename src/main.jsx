@@ -14,7 +14,7 @@ import ItemPage from "./components/itemPage.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="" element={<App />}>
+    <Route path="cart" element={<App />}>
       <Route path="" element={<Home />} />
       <Route path="about" element={<About />} />
       <Route path="items" element={<ItemPage />} />
