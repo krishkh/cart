@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 function Footer() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col mt-80">
       <footer className="bg-gray-200 bottom-0 fixed w-full text-gray-100 py-4 px-4 border-[2px] border-solid border-white">
         <div className="container flex flex-wrap items-center justify-between mx-auto">
           <p className="text-xs text-center">&copy; 2024 Your Company Name</p>
