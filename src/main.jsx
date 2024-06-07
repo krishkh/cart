@@ -10,14 +10,15 @@ import "./index.css";
 import App from "./App.jsx";
 import Home from "./components/home.jsx";
 import About from "./components/aboutUs.jsx";
-import ItemPage from "./components/itemPage.jsx";
+import ItemSection from "./components/itemSection.jsx";
+import data from "./init/initData.json";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="cart" element={<App />}>
       <Route path="" element={<Home />} />
       <Route path="about" element={<About />} />
-      <Route path="items" element={<ItemPage />} />
+      <Route path="items" element={<ItemSection data={{ data }} />} />
     </Route>
   )
 );

@@ -1,0 +1,62 @@
+[
+  {
+    "itemName": "T-Shirt",
+    "itemNumber": 1,
+    "itemPrice": 19.99,
+    "category": "Clothing"
+  },
+  {
+    "itemName": "Jeans",
+    "itemNumber": 2,
+    "itemPrice": 34.5,
+    "category": "Clothing"
+  },
+  {
+    "itemName": "Sweatshirt",
+    "itemNumber": 3,
+    "itemPrice": 27.99,
+    "category": "Clothing"
+  },
+  {
+    "itemName": "Hat",
+    "itemNumber": 4,
+    "itemPrice": 15,
+    "category": "Accessories"
+  },
+  {
+    "itemName": "Backpack",
+    "itemNumber": 5,
+    "itemPrice": 49.95,
+    "category": "Accessories"
+  },
+  {
+    "itemName": "Sneakers",
+    "itemNumber": 6,
+    "itemPrice": 62.99,
+    "category": "Shoes"
+  },
+  {
+    "itemName": "Sunglasses",
+    "itemNumber": 7,
+    "itemPrice": 24.99,
+    "category": "Accessories"
+  },
+  {
+    "itemName": "Watch",
+    "itemNumber": 8,
+    "itemPrice": 79.95,
+    "category": "Accessories"
+  },
+  {
+    "itemName": "Wallet",
+    "itemNumber": 9,
+    "itemPrice": 32.5,
+    "category": "Accessories"
+  },
+  {
+    "itemName": "Phone Case",
+    "itemNumber": 10,
+    "itemPrice": 12.99,
+    "category": "Accessories"
+  }
+]

@@ -1,14 +1,24 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 function Footer() {
   return (
-    <div className="md:items-center mt-5 mb-5 px-5 text-white">
-      <h1>This is a footer</h1>
-      <h1>This is a footer</h1>
-      <h1>This is a footer</h1>
-      <h1>This is a footer</h1>
-      <h1>This is a footer</h1>
-      <h1>This is a footer</h1>
+    <div className="flex flex-col min-h-screen">
+      <footer className="bg-gray-200 bottom-0 fixed w-full text-gray-100 py-4 px-4 border-[2px] border-solid border-white">
+        <div className="container flex flex-wrap items-center justify-between mx-auto">
+          <p className="text-xs text-center">&copy; 2024 Your Company Name</p>
+          <nav className="flex space-x-4">
+            <Link to="#" className="text-gray-300 hover:text-white">
+              About
+            </Link>
+            <Link to="#" className="text-gray-300 hover:text-white">
+              Contact
+            </Link>
+            <Link to="#" className="text-gray-300 hover:text-white">
+              Terms
+            </Link>
+          </nav>
+        </div>
+      </footer>
     </div>
   );
 }
