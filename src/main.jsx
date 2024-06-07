@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import {
+  Navigate,
   RouterProvider,
   createBrowserRouter,
   Route,
@@ -15,7 +16,8 @@ import data from "./init/initData.json";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="cart" element={<App />}>
-      <Route path="" element={<AboutUs />} />
+      <Route path="/cart" element={<Navigate to="/cart/items" replace />} />
+      <Route path="about" element={<AboutUs />} />
       <Route path="items" element={<ItemSection data={{ data }} />} />
     </Route>
   )

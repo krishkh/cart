@@ -6,7 +6,7 @@ function Header() {
     <>
       <div className="w-full relative bg-darkslategray overflow-hidden flex flex-col items-start justify-start pt-0 px-0box-border gap-[3px] cursor-auto leading-[normal] tracking-[normal]">
         <NavLink
-          to=""
+          to="about"
           className="self-stretch bg-gray-200 flex flex-row items-start justify-center pt-[15px] px-5 pb-3.5 box-border max-w-full text-left text-[64px] text-icon-color font-oswald"
         >
           <div className="h-[124px] w-[1450px] relative bg-gray-200 hidden max-w-full" />
@@ -19,7 +19,7 @@ function Header() {
         <NavLink className="" to="items">
           Item Section
         </NavLink>
-        <Link className="" to="">
+        <Link className="" to="about">
           About us
         </Link>
       </nav>
