@@ -31,7 +31,7 @@ function ItemPage1({ data }) {
             <h1 className="text-xl font-semibold text-gray-900 sm:text-2xl dark:text-white">
               {title}
             </h1>
-            {/* <div className="mt-4 sm:items-center sm:gap-4 sm:flex">
+            <div className="mt-4 sm:items-center sm:gap-4 sm:flex">
               <p className="text-2xl font-extrabold text-gray-900 sm:text-3xl dark:text-white">
                 {price} Rs
               </p>
@@ -104,7 +104,7 @@ function ItemPage1({ data }) {
                   345 Reviews
                 </a>
               </div>
-            </div> */}
+            </div>
 
             <div className="mt-6 sm:gap-4 sm:items-center sm:flex sm:mt-8">
               <a
