@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function ItemCard({ data }) {
-  console.log(data);
+  // console.log(data);
   return (
     <div className="lg:w-1/3 md:w-1/2 p-4 w-full card-shadow">
       <Link className="block relative h-48 rounded overflow-hidden card-shadow">
