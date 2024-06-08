@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 function ItemPage1({ data }) {
   const [itemNumber, setItemNumber] = useState(0);
-  const imageSrc = "logoK.svg";
+  const imageSrc = "icon.svg";
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [price, setPrice] = useState("");
@@ -19,7 +19,7 @@ function ItemPage1({ data }) {
     <section className="py-8 dark:bg-gray-200 md:py-16 antialiased">
       <div className="max-w-screen-xl px-4 mx-auto 2xl:px-0">
         <div className="lg:grid lg:grid-cols-2 lg:gap-8 xl:gap-16">
-          <div className="shrink-0 max-w-md lg:max-w-lg mx-auto">
+          <div className="shrink-0 dark:text-[#eb4034] max-w-md lg:max-w-lg mx-auto ">
             <img
               src={imageSrc}
               alt={title}

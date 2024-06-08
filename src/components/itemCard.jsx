@@ -6,14 +6,13 @@ function ItemCard({ data }) {
   return (
     <Link
       to={`/cart/item?itemNumber=${data.itemNumber}`}
-      className="lg:w-1/3 md:w-1/2 p-4 w-full card-shadow"
+      className="lg:w-1/3 md:w-1/2 p-8 w-full card-shadow"
     >
       <div className="block relative h-48 rounded overflow-hidden ">
         <img
           alt="ecommerce"
           className="object-cover object-center w-full h-full block"
           src="https://dummyimage.com/420x260"
-          // src="logoK.svg"
         />
       </div>
       <div className="mt-4">

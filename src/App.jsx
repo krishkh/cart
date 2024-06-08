@@ -8,8 +8,8 @@ import ToggleDarkMode from "./components/toggleDarkMode";
 function App() {
   return (
     <>
-      <ToggleDarkMode />
       <Header />
+      <ToggleDarkMode />
       <Outlet />
       <Footer />
     </>

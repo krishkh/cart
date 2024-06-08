@@ -3,7 +3,9 @@ import React from "react";
 function AboutUs() {
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-[#ebd61e] font-bold">KAIZEN CART</h1>
+      <h1 className="text-[#02d91f] dark:text-[#ebd61e] font-bold">
+        KAIZEN CART
+      </h1>
       <div className="dark:text-[#cccccc] container mx-auto px-4 py-8">
         <br />
         <h2>Empowering Student Trade</h2>

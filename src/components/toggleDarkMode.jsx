@@ -10,12 +10,14 @@ function ToggleDarkMode() {
   };
 
   return (
-    <button
-      className="flex py-1 text-10 h-10 p-2 bg-gray-100 dark:bg-white rounded-2xl"
-      onClick={toggleDarkMode}
-    >
-      <img className="w-8 h-8" src="dark-mode.png" />
-    </button>
+    <div className="absolute top-10 sticky ">
+      <button
+        className="flex py-1 text-10 h-10 mt-4 mx-8 p-2 bg-gray-100 dark:bg-white rounded-2xl"
+        onClick={toggleDarkMode}
+      >
+        <img className="w-8 h-8" src="dark-mode.png" />
+      </button>
+    </div>
   );
 }
 
