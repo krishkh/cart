@@ -6,6 +6,12 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  @apply transition-colors duration-200; /* Assuming these are Tailwind classes */
+  /* Add other styles for the universal selector here */
+}
+
+
 .card-shadow:hover {
     animation: card-shadow 0.3s ease-in-out forwards; /* Animation definition */
   }
@@ -15,4 +21,3 @@
     to { box-shadow: 3px 3px 30px 2px rgb(60, 57, 57); } /* Shadow appears */
   }
 
-  
