@@ -5,7 +5,7 @@ export default {
     extend: {
       colors: {
         darkslategray: "#3c3c3c",
-        
+
         gray: {
           100: "#828282",
           200: "#1b1b1b",
@@ -21,8 +21,9 @@ export default {
         oswald: "Oswald",
         pangolin: "Pangolin",
         "overlock-sc": "'Overlock SC'",
-      }
+      },
     },
   },
   plugins: [],
+  darkMode: "class",
 };

@@ -13,6 +13,7 @@ function ItemCard({ data }) {
           alt="ecommerce"
           className="object-cover object-center w-full h-full block rounded-3xl"
           src="https://dummyimage.com/420x260"
+          // src="logoK.svg"
         />
       </div>
       <div className="mt-4">
