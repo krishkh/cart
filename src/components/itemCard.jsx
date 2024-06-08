@@ -11,7 +11,7 @@ function ItemCard({ data }) {
       <div className="block relative h-48 rounded overflow-hidden ">
         <img
           alt="ecommerce"
-          className="object-cover object-center w-full h-full block rounded-3xl"
+          className="object-cover object-center w-full h-full block"
           src="https://dummyimage.com/420x260"
           // src="logoK.svg"
         />

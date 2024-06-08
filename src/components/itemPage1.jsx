@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 function ItemPage1({ data }) {
   const [itemNumber, setItemNumber] = useState(0);
-  const imageSrc = "icon.svg";
+  const imageSrc = "logoK.svg";
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [price, setPrice] = useState("");

@@ -11,10 +11,10 @@ function ToggleDarkMode() {
 
   return (
     <button
-      className="w-40 text-10 h-10 bg-blue-500 text-white rounded-md"
+      className="flex py-1 text-10 h-10 p-2 bg-gray-100 dark:bg-white rounded-2xl"
       onClick={toggleDarkMode}
     >
-      {isDarkMode ? "Light Mode" : "Dark Mode"}
+      <img className="w-8 h-8" src="dark-mode.png" />
     </button>
   );
 }

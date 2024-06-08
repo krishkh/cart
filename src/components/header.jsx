@@ -11,7 +11,7 @@ function Header() {
           </div>
         </div>
       </div>
-      <nav className="flex justify-end gap-10 py-2 px-5 dark:bg-gray-200 border-[2px] border-solid border-white dark:text-gray-100 font-oswald">
+      <nav className="flex justify-end gap-10 py-2 px-5 dark:bg-gray-200 border-[2px] border-solid border-black dark:border-white dark:text-gray-100 font-oswald">
         <NavLink className="" to="items">
           Item Section
         </NavLink>
