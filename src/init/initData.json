@@ -23,6 +23,7 @@
   {
     "itemName": "Hat",
     "itemNumber": 4,
+    "itemPrice": 27.99,
     "category": "Accessories",
     "description": "A stylish hat to complete your look."
   },

@@ -17,13 +17,13 @@ function ItemCard({ data }) {
         />
       </div>
       <div className="mt-4">
-        <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
+        <h3 className="dark:text-gray-100 text-xs tracking-widest title-font mb-1">
           {data.category}
         </h3>
-        <h2 className="text-white title-font text-lg font-medium">
+        <h2 className="dark:text-white title-font text-lg font-medium">
           {data.itemName}
         </h2>
-        <p className="mt-1">{data.itemPrice}</p>
+        <p className="mt-1 dark:text-gray-100">{data.itemPrice}</p>
       </div>
     </Link>
   );
