@@ -10,7 +10,7 @@ function ToggleDarkMode() {
   };
 
   return (
-    <div className="absolute z-10 top-10 sticky ">
+    <div className="absolute z-50 top-10 sticky ">
       <button
         className="flex py-1 text-10 h-10 mt-4 mx-8 p-2 bg-gray-100 dark:bg-white rounded-2xl"
         onClick={toggleDarkMode}
