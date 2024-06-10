@@ -5,6 +5,7 @@ import {
   RouterProvider,
   createBrowserRouter,
   Route,
+  Routes,
   createRoutesFromElements,
 } from "react-router-dom";
 import "./index.css";
@@ -14,7 +15,6 @@ import ItemSection from "./components/itemSection.jsx";
 import ItemPage from "./components/itemPage.jsx";
 import data from "./init/initData.json";
 import ItemPage1 from "./components/itemPage1.jsx";
-
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="cart" element={<App />}>

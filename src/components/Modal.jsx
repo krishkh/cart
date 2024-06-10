@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
+import SignIn from "./signIn";
+import SignUp from "./signUp";
 
 function Modal({ children, isOpen, onClose }) {
   if (!isOpen) return null; // Don't render if not open
+  const [hasId, setHasId] = useState(true);
+
+  const toggleHasId = () => {
+    setHasId(!hasId);
+    console.log(hasId);
+  };
 
   return (
     <div className="fixed top-[10.5rem] left-0 w-full bg-[#ffffffcc] dark:bg-[#1b1b1bcc]  h-full z-10">
@@ -13,7 +21,12 @@ function Modal({ children, isOpen, onClose }) {
         >
           x
         </button>
-        <div className="">{children}</div>
+        {/* <div className="">{children}</div> */}
+        {hasId ? (
+          <SignIn hasId={hasId} toggleHasId={toggleHasId} />
+        ) : (
+          <SignUp hasId={hasId} toggleHasId={toggleHasId} />
+        )}
       </div>
     </div>
   );
