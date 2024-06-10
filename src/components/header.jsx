@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className="sticky top-0 z-10 bg-white dark:bg-gray-200">
       <div className="w-full dark:bg-gray-200 dark:text-icon-color relative overflow-hidden flex flex-col items-start justify-start pt-0 px-0box-border gap-[3px] cursor-auto leading-[normal] tracking-[normal]">
-        <div className="self-stretch flex flex-row items-start justify-center pt-[15px] px-5 pb-3.5 box-border max-w-full text-left text-[64px] font-oswald">
+        <div className="self-stretch flex flex-row items-start justify-center pt-[40px] px-5 pb-3.5 box-border max-w-full text-left text-[64px] font-oswald">
           <div className="h-[124px] w-[1450px] relative hidden max-w-full" />
           <div
             id="target"
