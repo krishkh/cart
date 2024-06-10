@@ -5,7 +5,7 @@ function Modal({ children, isOpen, onClose }) {
 
   return (
     <div className="fixed top-[10.5rem] left-0 w-full bg-[#ffffffcc] dark:bg-[#1b1b1bcc]  h-full z-10">
-      <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black text-white dark:bg-white dark:text-black rounded shadow">
+      <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded shadow">
         <button
           type="button"
           onClick={onClose}
@@ -13,9 +13,8 @@ function Modal({ children, isOpen, onClose }) {
         >
           x
         </button>
-        <div className="p-12">{children}</div>
+        <div className="">{children}</div>
       </div>
-      //
     </div>
   );
 }
