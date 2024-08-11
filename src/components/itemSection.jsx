@@ -1,7 +1,7 @@
 import React from "react";
 import ItemCard from "./itemCard";
 function ItemSection({ data }) {
-  // console.log(data.data);
+  console.log(data);
   return (
     <div className="darK:text-gray-400 mt-8 flex-wrap dark:bg-gray-200 body-font flex container px-5 py-5 mx-auto">
       {data.data.map((item) => (
